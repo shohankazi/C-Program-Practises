@@ -1,12 +1,9 @@
 #include<stdio.h>
 int main(){
-    int a;
+    int a,b,sum;
     a = 6;
-    if(a % 2 == 0){
-        printf("this is a even number %d", a);
-    }
-    else{
-        printf("this is a odd %d number", a);
-    }
+    b = 3;
+    sum = a + b;
+    printf("%d",sum);
     return 0;
 }
