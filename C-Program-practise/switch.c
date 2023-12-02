@@ -1,16 +1,21 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
     char letter;
-    scanf("%c",&letter);
-    switch(letter){
-        case 'A':
-        printf("First letter\n");
+    //scanf("%c",&letter);
+
+    switch(letter=toupper(getchar())){
+        case 'R':
+        printf("RED");
         break;
-        case 'Z':
-        printf("Last letter\n");
+        case 'G':
+        printf("GREEN");
         break;
+        case 'B':
+            printf("BLUE");
+            break;
         default:
-        printf("Middle letter\n");
+        printf("Invalid Choice\n");
         break;
     }
 }
