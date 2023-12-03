@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1701623195 source:c:\users\shoha\desktop\c-programs\c-program-practise\prime number\main.c
+	<stdio.h>
+	<stdlib.h>
+
