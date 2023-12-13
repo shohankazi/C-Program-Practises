@@ -18,6 +18,7 @@ int main(){
         printf("Invalid marks Enter right number", m);
         goto math;
     }
+    //For English
     printf("Enter marks of english: ");
     english: scanf("%d", &e);
     if (e > 100)
@@ -25,6 +26,7 @@ int main(){
         printf("Invalid marks Enter right number", e);
         goto english;
     }
+    //For CS
     printf("Enter marks of CS: ");
     c_s: scanf("%d", &c);
     if (c > 100)
