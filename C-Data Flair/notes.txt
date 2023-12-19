@@ -4,3 +4,6 @@ float = float / int
 float int / float
 
 # break statement is only used in loop and switch.
+
+The main difference between strcmp() and strcmpi() is strcmp() not ignores the casing and the strcmpi() ignores the the case of the string.
+
