@@ -6,7 +6,7 @@ void main()
     int a;
     a = 50;
     printf("Value is %d\n", a);
-    printf("Address is %d", &a);
+    printf("Address is %u", &a);
     // int a=10,*p,*r,b=50;
     // p=&a;
     // printf(" a = %d", *p);
