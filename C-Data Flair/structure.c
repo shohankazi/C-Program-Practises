@@ -3,11 +3,11 @@
 #include<string.h>
 struct Student
 {
-    int rno;
-    char name[50];
-    double per;
+    int rno; // Member variable of a structure
+    char name[50]; // Member variable of a structure
+    double per; // Member variable of a structure
 };
-struct Student S;
+struct Student S; // Structure type of a variable
 void main(){
     printf("\nEnter name: ");
     scanf("%s",&S.name);
