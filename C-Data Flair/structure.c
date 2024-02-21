@@ -9,6 +9,7 @@ struct Student
 };
 struct Student S; // Structure type of a variable
 void main(){
+    // Main program here
     printf("\nEnter name: ");
     scanf("%s",&S.name);
     fflush(0);
@@ -16,6 +17,7 @@ void main(){
     scanf("%d", &S.rno);
     printf("Enter Percentage: ");
     scanf("%lf",&S.per);
+    // Student Information Show part
     printf("\n[----Student Information----]\n");
     printf("\nName: %s",S.name);
     printf("\nRoll Number: %d",S.rno);
